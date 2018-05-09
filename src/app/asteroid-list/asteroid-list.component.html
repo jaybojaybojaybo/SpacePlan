@@ -1,0 +1,12 @@
+<h2>Asteroids</h2>
+
+<h1>These are the bad guys:</h1>
+<div *ngFor="let asteroid of childAsteroids;">
+  <div>
+    <h4>Name: {{asteroid.name}}</h4>
+    <ul>
+      <li>Miss Distance in Miles: {{asteroid.close_approach_data[0].miss_distance.miles}}</li>
+      <li>Velocity in Miles/Hour:  {{asteroid.close_approach_data[0].relative_velocity.miles_per_hour}}</li>
+    </ul>
+  </div>
+</div>

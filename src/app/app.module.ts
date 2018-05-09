@@ -7,13 +7,14 @@ import { AppComponent } from './app.component';
 import { DateFormComponent } from './date-form/date-form.component';
 import { routing } from './/app-routing.module';
 import { AsteroidListComponent } from './asteroid-list/asteroid-list.component';
-
+import { SolarSystemComponent } from './solar-system/solar-system.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateFormComponent,
-    AsteroidListComponent
+    AsteroidListComponent,
+    SolarSystemComponent
   ],
   imports: [
     BrowserModule,

@@ -28,8 +28,8 @@ export class DateFormComponent {
           if (threat == true) {
             let dataSet = (theseAsteroids[thisAsteroid][j]);
             let name = dataSet.name;
-            let distance = dataSet.close_approach_data[0].miss_distance.miles;
-            let velocity = dataSet.close_approach_data[0].relative_velocity.miles_per_hour;
+            let distance = Math.floor(dataSet.close_approach_data[0].miss_distance.miles);
+            let velocity = Math.floor(dataSet.close_approach_data[0].relative_velocity.miles_per_hour);
             let timeLeft = Math.floor((distance/velocity)/24);
             let newAsteroid = new Asteroid(name, distance, velocity, timeLeft);
             newAsteroidList.push(newAsteroid);

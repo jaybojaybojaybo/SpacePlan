@@ -1,21 +1,20 @@
-<h2>Asteroids</h2>
+
 <div id="resultDiv">
-  <h1>These are the bad guys:</h1>
   <table class="darkTable">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Asteroid Name</th>
         <th>Distance Away</th>
         <th>Velocity</th>
-        <th>Days Left</th>
+        <th>Time Left</th>
       </tr>
     </thead>
     <tbody>
       <tr #elseBlock *ngFor="let asteroid of childAsteroids;">
         <td>{{asteroid.name}}</td>
-        <td>{{asteroid.distance}}</td>
-        <td>{{asteroid.velocity}}</td>
-        <td>{{asteroid.timeLeft}}</td>
+        <td>{{asteroid.distance}} miles</td>
+        <td>{{asteroid.velocity}} miles/hr</td>
+        <td>{{asteroid.timeLeft}} days</td>
       </tr>
     </tbody>
   </table>

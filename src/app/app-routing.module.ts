@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { DateFormComponent } from './date-form/date-form.component';
 
+
 const appRoutes: Routes = [
   { path: '', component: DateFormComponent }
 ];

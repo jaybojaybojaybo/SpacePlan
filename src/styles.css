@@ -3,3 +3,8 @@ body {
     background-color: black;
     color: white;
 }
+
+.planet-div {
+    height: 400px;
+    width: 400px;
+}

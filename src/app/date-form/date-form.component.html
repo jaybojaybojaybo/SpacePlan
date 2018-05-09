@@ -1,3 +1,4 @@
+
 <i class="fa fa-space-shuttle fa-5x fa-spin" aria-hidden="true"> </i>
 <h3>Enter a date</h3>
 <form>
@@ -6,7 +7,7 @@
   </div>
   <div>
     <p>On this date, if one of the asteroids deemed by NASA <br>  
-      to be "potentially hazardous threats" <br>
+      to be "potentially hazardous asteroids" <br>
       were to have a sudden change in heart or trajectory <br>
       that puts it on a collision course with EARTH, <br>
       find out how long you have before impact is made.</p>
@@ -16,4 +17,8 @@
 
 <div *ngIf="asteroids">
   <app-asteroid-list [childAsteroids]="asteroids"></app-asteroid-list>
+</div>
+
+<div id="solar">
+  <app-solar-system></app-solar-system>
 </div>

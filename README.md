@@ -6,7 +6,7 @@
 
 An Angular application that utilizes NASA's asteroid API to determine how many days it would take a potentially hazardous asteroid to reach our planet if it changed directions and made a beeline toward Earth.
 
-Hosted at [Space Age]
+Hosted at [Space Age](https://space-plan.firebaseapp.com/)
 
 ## User Stories
 
@@ -17,7 +17,6 @@ Hosted at [Space Age]
 * As a user, I want to know that asteroid's current velocity.
 * As a user, if there are more than one asteroid for a given day, I want to see the above details for each asteroid.
 * As a user, I want to see a spinning space shuttle icon.
-* As a user, I want to see a three.js solar system behind the forms.
 
 ## Setup
 

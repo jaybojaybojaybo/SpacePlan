@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Asteroid } from "../asteroid.model";
 
 @Component({
   selector: 'app-asteroid-list',
@@ -7,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
   providers: []
 })
 export class AsteroidListComponent{
-  @Input() childAsteroids;
+  @Input() childAsteroids
   
   constructor() { 
     

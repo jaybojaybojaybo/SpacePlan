@@ -1,13 +1,15 @@
-
-<i class="fa fa-space-shuttle fa-5x fa-spin" aria-hidden="true"> </i> 
+<i class="fa fa-space-shuttle fa-5x fa-spin" aria-hidden="true"> </i>
 <h3>Enter a date</h3>
-<div>
-  <p>On this date, if an asteroid were to have a sudden change in heart or trajectory that puts it on a collision course with EARTH, find out how long you have before impact is made.</p>
-</div>
 <form>
   <div class="form-group">
-    <label for="date">Date</label>
     <input type=date name="" value="" #asteroidDate>
+  </div>
+  <div>
+    <p>On this date, if one of the asteroids deemed by NASA <br>  
+      to be "potentially hazardous threats" <br>
+      were to have a sudden change in heart or trajectory <br>
+      that puts it on a collision course with EARTH, <br>
+      find out how long you have before impact is made.</p>
   </div>
   <button (click)="getAsteroids(asteroidDate.value)" type="submit">How Long Do I Have?</button>
 </form>

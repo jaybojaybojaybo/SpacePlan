@@ -5,6 +5,7 @@
 ## Description
 
 An Angular application that utilizes NASA's asteroid API to determine how many days it would take a potentially hazardous asteroid to reach our planet if it changed directions and made a beeline toward Earth.
+Brought from node.js in [absolute-magnitude](https://github.com/jaybojaybojaybo/absolutemagnitude) project.
 
 Hosted at [Space Age](https://space-plan.firebaseapp.com/)
 
